@@ -1,0 +1,108 @@
+# Build directories
+build/
+cmake-build-*/
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+Testing/
+
+# Binaries and libraries
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Coverage and profiling
+*.gcno
+*.gcda
+*.profraw
+*.profdata
+coverage/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*.user
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Project-specific files
+kosaraju
+toolbox/
+TLAToolbox-*.zip
+
+# Downloaded files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+*.deb
+*.rpm
+*.dmg
+*.pkg
+
+# Generated files
+*.generated.*
+*.gen.*
+*.auto.*
+*.build.*
+*.tmp.*
+
+# TLA+ generated files
+*.tla.trace
+*_TTrace_*.tla
+Kosaraju_TTrace_*.tla
+*.tla.log
+*.tla.out
+
+# Java (for TLA+)
+*.class
+*.jar
+*.war
+*.ear
+
+# Core dumps
+core
+core.*
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
